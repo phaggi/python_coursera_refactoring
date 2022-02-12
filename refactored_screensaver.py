@@ -299,6 +299,7 @@ if __name__ == "__main__":
                 if event.key == pygame.K_KP_MINUS:
                     steps -= 1 if steps > 1 else 0
 
+
             if event.type == pygame.MOUSEBUTTONDOWN:
                 newpoint = Vec2d(event.pos)
                 newspeed = Vec2d((random.random() * speedup / 10, random.random() * speedup / 10))
